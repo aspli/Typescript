@@ -12,15 +12,15 @@
 - Unknown
 - Nerver
 
-###Do que você vai precisar
-###Ferramentas necessárias:
+### Do que você vai precisar
+### Ferramentas necessárias:
 Do Node instalado na sua máquina
 Instalar o typescript usando o npm (npm install -g typescript)
 É interessante que ele seja instalado de forma global, para que o usuário possa usar a biblioteca a qualquer momento e em qualquer projeto para fazer testes rápidos com o TS.
 De uma IDE como o visual studio code
 
-###Sobre como testar
-###Teste mão livre
+### Sobre como testar
+### Teste mão livre
 Faça suas alterações em src/app.ts
 Rode tsc ou npm watch para compilar elas para o arquivo dist/app.js
 Caso queira fazer um teste interagindo com o DOM, altere o index.html
@@ -32,8 +32,8 @@ Rode tsc ou npm watch para compilar elas para o arquivo dist/app.js
 Caso queira fazer um teste interagindo com o DOM, altere o index.html
 Rode o npm start e acesse o localhost:3000 Caso queira fazer testes usando html é só alterar o index.html.
 
-###Sobre o tsconfig.json
-###Algumas configurações e funcionalidades legais são:
+### Sobre o tsconfig.json
+### Algumas configurações e funcionalidades legais são:
 Opções básicas:
 target
 Define para qual versão do ECMAScript o typescript vai ser convertido
